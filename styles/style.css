@@ -75,7 +75,7 @@
   right: 0;
 }
 
-.header__image_illustration{
+.header__image-illustration{
   height: 608px;
   width: 765px;
   position: absolute;
@@ -169,8 +169,11 @@
 
 .table__cell_theme_dark{
   margin-top: 80px;
-  color: white;
   width: 200px;
+}
+
+.table__text_theme_dark{
+  color: white;
 }
 
 .section-title{
@@ -331,7 +334,7 @@
   color: white;
 }
 
-a:hover {
+.footer__column-link:hover, .feynman__link:hover, .header__link:hover {
   background: #786b59;
   color: #ffe;
 }
